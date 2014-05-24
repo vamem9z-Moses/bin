@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Set Environment
+export GOPATH=/home/mmiles/Software/ma/3rapp
+export PATH=$NOGOPATH:$GOROOT/bin:$GOPATH/bin
+
+# Change to project directory
+cd ~/Software/ma/3rapp/src/3rapp
+
