@@ -7,3 +7,6 @@ export PATH=$NOGOPATH:$GOROOT/bin:$GOPATH/bin
 # Change to project directory
 cd ~/Software/ma/3rapp/src/3rapp
 
+# Turn env
+workon 3rapp
+
