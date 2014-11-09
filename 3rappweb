@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Set Environment
+export GOPATH=/home/mmiles/Software/ma/3rappweb
+export PATH=$NOGOPATH:$GOROOT/bin:$GOPATH/bin
+
+# Change to project directory
+cd ~/Software/ma/3rappweb/src/github.com/MilesAheadLLC/3rappweb
+
+# Set node version
+nvm use 0.10.32
+
