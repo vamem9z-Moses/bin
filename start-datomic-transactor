@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$HOME/Apps/datomic-pro/bin/transactor $HOME/Apps/datomic-pro-config/dev-transactor-template.properties
