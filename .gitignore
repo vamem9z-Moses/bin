@@ -30,3 +30,4 @@ visualvm
 nightcode.jar
 gradle
 wake.sh
+clj-kondo
