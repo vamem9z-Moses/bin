@@ -6,4 +6,4 @@ while [ "$1" != "" ] ; do
  shift
 done
 
-exec "/usr/bin/java" "-jar" "poly-0.1.0-alpha9.jar" $ARGS
+exec "/usr/bin/java" "-jar" "$HOME/bin/poly-0.1.0-alpha9.jar" $ARGS
