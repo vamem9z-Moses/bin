@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ARGS=""
+while [ "$1" != "" ] ; do
+ ARGS="$ARGS $1"
+ shift
+done
+
+exec "/usr/bin/java" "-jar" "$HOME/bin/poly-0.1.0-alpha9.jar" $ARGS
